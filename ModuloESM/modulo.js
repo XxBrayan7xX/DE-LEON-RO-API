@@ -5,7 +5,8 @@ let frases=[
 "Las convicciones tienen el poder de crear y el poder de destruir",
 "El mejor placer de la vida es hacer las cosas que la gente dice que no podemos hacer"
 ]
-export function obtenerFrase(indice){
-    return frases[indice]
+export function obtenerFrase(){
+    var numeroAleatorioEntero = Math.floor(Math.random() * 5);
+    return frases[numeroAleatorioEntero]
 }
 
